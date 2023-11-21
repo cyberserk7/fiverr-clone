@@ -4,6 +4,8 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import "./Gig.scss"
 
+import aritra from "/src/assets/aritra.jpg"
+
 function Gig() {
   return (
 	<div className="gig">
@@ -91,12 +93,12 @@ function Gig() {
           <h2>Reviews</h2>
           <div className="item">
             <div className="user">
-              <img className='pp' src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/4ac888ab88bed4a9166212eba3f54b03-178402941694802361.362606/3A70BD22-A664-4B3C-A786-C09CFCE165DE" alt="" />
+              <img className='pp' src={aritra} alt="" />
               <div className="info">
-                <span>John Doe</span>
+                <span>Aritra Sarkar</span>
                 <div className="country">
-                  <img src="https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png" alt="" />
-                  <span>United States</span>
+                  <img src={"https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1ee-1f1f3.png"} alt="" />
+                  <span>India</span>
                 </div>
               </div>
             </div>
@@ -104,12 +106,11 @@ function Gig() {
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/1024px-Gold_Star.svg.png" alt="" />
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/1024px-Gold_Star.svg.png" alt="" />
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/1024px-Gold_Star.svg.png" alt="" />
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/1024px-Gold_Star.svg.png" alt="" />
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/1024px-Gold_Star.svg.png" alt="" />
-              <span>5</span>
+
+              <span>3</span>
             </div>
             <p>
-              I have worked with ai_lani on several projects and each time she has exceeded my expectations. Her creativity is beyond excellent. We use her work throughout our business and my customers always smile when viewing her work. ai_lani has become an important part of our business as we grow.
+              I have worked with this seller multiple times but she still doesn't understand what I want unless I repeat it 27 times specifically. I dont know if she's slow or does it on purpose.
             </p>
             <div className="helpful">
               <span>Helpful?</span>
@@ -126,7 +127,7 @@ function Gig() {
           <hr />
           <div className="item">
             <div className="user">
-              <img src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/4ac888ab88bed4a9166212eba3f54b03-178402941694802361.362606/3A70BD22-A664-4B3C-A786-C09CFCE165DE" alt="" />
+              <img className='pp' src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/4ac888ab88bed4a9166212eba3f54b03-178402941694802361.362606/3A70BD22-A664-4B3C-A786-C09CFCE165DE" alt="" />
               <div className="info">
                 <span>John Doe</span>
                 <div className="country">
