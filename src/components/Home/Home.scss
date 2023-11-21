@@ -49,8 +49,8 @@
                     background-color : rgb(185, 185, 185);
                     border-radius: 100px;
                     width: 55px;
-                    transition: ease all;
-                    &:hover{
+                    transition: ease all 0.5s;
+                    &.active{
                         width: 80px;
                         border: solid 1.5px #1dbf73;
                     }
