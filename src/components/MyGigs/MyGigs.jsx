@@ -26,7 +26,7 @@ function MyGigs() {
         </tr>
         <tr>
           <td>
-            <Link to="/gig">
+            <Link to="/gig/123">
               <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs3/298676084/original/c73f161ce591d08b618bef938b960757a92ff006/create-custom-ai-art-using-midjourney-advanced-ai-tool.png" alt="" />
             </Link>
           </td>
@@ -42,7 +42,7 @@ function MyGigs() {
         </tr>
         <tr>
           <td>
-          <Link to="/gig">
+          <Link to="/gig/123">
             <img src="https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/297248772/original/b711ea4534a4c3f54e59768c88e86db51e8554f7.jpg" alt="" />
             </Link>
           </td>
@@ -58,7 +58,7 @@ function MyGigs() {
         </tr>
         <tr>
           <td>
-          <Link to="/gig">
+          <Link to="/gig/123">
             <img src="https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/303999176/original/50ef7c527d306fbaca0daa917fad0f98e689b1df.png" alt="" />
             </Link>
           </td>
@@ -74,7 +74,7 @@ function MyGigs() {
         </tr>
         <tr>
           <td>
-          <Link to="/gig">
+          <Link to="/gig/123">
             <img src="https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/329779819/original/614077b7fe974d3ea9d9ddecc73a6c376f61cb2c.png" alt="" />
             </Link>
           </td>
@@ -90,7 +90,7 @@ function MyGigs() {
         </tr>
         <tr>
           <td>
-          <Link to="/gig">
+          <Link to="/gig/123">
             <img src="https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/346724316/original/764678c7f269930dff9afc69df1a856fd26a59fd.png" alt="" />
             </Link>
           </td>
