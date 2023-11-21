@@ -186,7 +186,16 @@ function Message() {
               alt=""
             />
             <p>
-              Ben
+              Ben, my final message.
+            </p>
+          </div>
+          <div className="item owner">
+            <img
+              src={n}
+              alt=""
+            />
+            <p>
+              ok
             </p>
           </div>
         </div>
