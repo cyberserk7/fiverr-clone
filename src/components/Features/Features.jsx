@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Features.scss"
+import video from "/src/assets/video.mp4"
+import thumbnail from "/src/assets/thumbnail.png"
 
 function Features() {
   return (
@@ -45,7 +47,7 @@ function Features() {
                 </div>
             </div>
             <div className="right">
-                <video src="/src/assets/video.mp4" poster="/src/assets/thumbnail.png" controls></video>
+                <video src={video} poster={thumbnail} controls></video>
             </div>
         </div>
     </div>

@@ -1,18 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Messages.scss"
+import d from "/src/assets/debayani-pp.jpeg"
+import n from "/src/assets/nilabjo-pp.jpeg"
 
 function Message() {
   return (
     <div className="message">
       <div className="container">
         <span className="breadcrumbs">
-          <Link to="/messages" className='link'>Messages</Link> > Debayani Roy >
+          <Link to="/messages" className='link'>Messages</Link> &gt; Debayani Roy &gt;
         </span>
         <div className="messages">
           <div className="item">
             <img
-              src="/src/assets/debayani-pp.jpeg"
+              src={d}
               alt=""
             />
             <p>
@@ -24,7 +26,7 @@ function Message() {
           </div>
           <div className="item owner">
             <img
-              src="/src/assets/nilabjo-pp.jpeg"
+              src={n}
               alt=""
             />
             <p>
@@ -36,7 +38,7 @@ function Message() {
           </div>
           <div className="item">
             <img
-              src="/src/assets/debayani-pp.jpeg"
+              src={d}
               alt=""
             />
             <p>
@@ -48,7 +50,7 @@ function Message() {
           </div>
           <div className="item owner">
             <img
-              src="/src/assets/nilabjo-pp.jpeg"
+              src={n}
               alt=""
             />
             <p>
@@ -60,7 +62,7 @@ function Message() {
           </div>
           <div className="item">
             <img
-              src="/src/assets/debayani-pp.jpeg"
+              src={d}
               alt=""
             />
             <p>
@@ -72,7 +74,7 @@ function Message() {
           </div>
           <div className="item owner">
             <img
-              src="/src/assets/nilabjo-pp.jpeg"
+              src={n}
               alt=""
             />
             <p>
@@ -84,7 +86,7 @@ function Message() {
           </div>
           <div className="item">
             <img
-              src="/src/assets/debayani-pp.jpeg"
+              src={d}
               alt=""
             />
             <p>
@@ -96,7 +98,7 @@ function Message() {
           </div>
           <div className="item owner">
             <img
-              src="/src/assets/nilabjo-pp.jpeg"
+              src={n}
               alt=""
             />
             <p>
@@ -108,7 +110,7 @@ function Message() {
           </div>
           <div className="item">
             <img
-              src="/src/assets/debayani-pp.jpeg"
+              src={d}
               alt=""
             />
             <p>
@@ -120,7 +122,7 @@ function Message() {
           </div>
           <div className="item owner">
             <img
-              src="/src/assets/nilabjo-pp.jpeg"
+              src={n}
               alt=""
             />
             <p>
@@ -132,7 +134,7 @@ function Message() {
           </div>
           <div className="item">
             <img
-              src="/src/assets/debayani-pp.jpeg"
+              src={d}
               alt=""
             />
             <p>
@@ -144,7 +146,7 @@ function Message() {
           </div>
           <div className="item">
             <img
-              src="/src/assets/debayani-pp.jpeg"
+              src={d}
               alt=""
             />
             <p>
@@ -156,7 +158,7 @@ function Message() {
           </div>
           <div className="item owner">
             <img
-              src="/src/assets/nilabjo-pp.jpeg"
+              src={n}
               alt=""
             />
             <p>
@@ -168,7 +170,7 @@ function Message() {
           </div>
           <div className="item owner">
             <img
-              src="/src/assets/nilabjo-pp.jpeg"
+              src={n}
               alt=""
             />
             <p>
@@ -180,7 +182,7 @@ function Message() {
           </div>
           <div className="item">
             <img
-              src="/src/assets/debayani-pp.jpeg"
+              src={d}
               alt=""
             />
             <p>
