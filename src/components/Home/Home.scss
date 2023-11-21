@@ -1,0 +1,174 @@
+@font-face {
+	font-family: 'MilleniaPersona';
+	src: url('/src/assets/Qwigley-Regular.ttf');
+}
+.home{
+    font-family: 'Montserrat', sans-serif;
+    .need-got{ 
+        display: flex;
+        justify-content: center;
+        padding-top: 90px;
+        padding-bottom: 60px;
+        height: 40vh;
+        .container{
+            width: 1350px;
+            display: flex;
+            flex-direction: column;
+            gap:65px;
+            h1{
+                font-size: 30px;
+                color: #404145;
+            }
+            .div-one{
+                width: 1350px;
+                display: flex;
+                justify-content: center;
+                gap: 120px;
+            }
+            .div-two{
+                width: 1350px;
+                display: flex;
+                justify-content: center;
+                gap: 120px;
+            }
+            svg{
+                height: 40px;
+                color: rgb(89, 89, 89);
+            }
+            .individual-icons{
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                width: 160px;
+            }
+            hr{
+                height: 0;
+                border: solid 1.5px rgb(185, 185, 185);
+                background-color : rgb(185, 185, 185);
+                border-radius: 100px;
+                width: 55px;
+                transition: ease all;
+                &:hover{
+                    width: 80px;
+                    border: solid 1.5px #1dbf73;
+                }
+            }
+            h2{
+                font-size: 14px;
+                color: #404145;
+            }
+        }
+    }
+    .project-slider{
+        background-color: #F5F5F5;
+        padding-top: 90px;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: center;
+        .container{
+            width: 1350px;
+            color: #404145;
+            h1{
+                font-size: 30px;
+                padding-bottom: 35px;
+            }
+            .owl-theme{
+                .owl-nav{
+                    .owl-prev{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                        top: 29%;
+                        left: -30px;
+                        background-color: white;
+                        cursor: pointer;
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 50%;
+                        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.147);
+                        border: solid rgb(226, 226, 226) 0.5px;
+                        color: rgb(98, 98, 98);
+                        svg{
+                            height: 20px;
+                        }
+                    }
+                    
+                    .owl-next{
+                        cursor: pointer;
+                        background-color: white;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                        top: 29%;
+                        right: -30px;
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 50%;
+                        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.147);
+                        border: solid rgb(226, 226, 226) 0.5px;
+                        color: rgb(98, 98, 98);
+                        svg{
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .doable{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: center;
+        .container{
+            position: relative;
+            border-radius: 5px;
+            height: 442px;
+            width: 1350px;
+            // background-color: #45091B;
+            overflow: hidden;
+            .left{
+                z-index: 2;
+                h1{
+                    color: white;
+                    position: absolute;
+                    top: 35%;
+                    left: 100px;
+                    font-size: 43px;
+                    span{
+                        font-family: 'MilleniaPersona';
+                        font-size: 70px;
+                        font-weight: 200;
+                    }
+                }
+                button{
+                    position: absolute;
+                    height: 45px;
+                    width: 130px;
+                    background-color: #1dbf73;
+                    border: #1dbf73 solid 1px;
+                    border-radius: 4px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 600;
+                    color: white;
+                    font-size: 15px;
+                    top: 55%;
+                    left: 100px;
+                    cursor: pointer;
+                    user-select: none;
+                }
+            }
+            .right{
+                img{
+                    border-radius: 5px;
+                }
+            }
+        }
+        
+    }
+}

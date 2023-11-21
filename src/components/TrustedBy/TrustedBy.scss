@@ -1,0 +1,19 @@
+.trustedby{
+	height: 100px;
+	background-color: hsl(240, 5%, 96%);
+	display: flex;
+	justify-content: center;
+	color: #C2C2C5;
+	.container{
+		width: 1350px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Poppins';
+		gap: 35px;
+		font-size: 18px;
+		img{
+			height: 100px;
+		}
+	}
+}

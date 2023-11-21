@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Chunk';
+    src: url('../Chunkfive.ttf');
+  }
+.business-sol{
+    display: flex;
+    justify-content: center;
+    height: 65vh;
+    background-color: #0D084D;
+    .container{
+        width: 1350px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        .left{
+            .logo-text{
+                font-size: 32px;
+                display: flex;
+                font-family: 'Chunk';
+                padding-bottom: 22px;
+                align-items: center;
+                justify-content: start;
+                span{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 100;
+                    margin-left: 10px;
+                    font-size: 18px;
+                    transform: translate(0,5px);
+                }
+                .dot{
+                    color: #1dbf73;
+                }
+            }
+            width: 600px;
+            h1{
+                font-size: 30px;
+            }
+            .tick-container{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                .tick-div{
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    padding-top: 25px;
+                    svg{
+                        height: 30px;
+                        color: #B1ABFF;
+                        transform: translate(0,15px);
+                    }
+                    h2{
+                        font-size: 17px;
+                    }
+                }
+                h3{
+                    transform:translate(40px,0);
+                    font-size: 16px;
+                    font-weight: 500;
+
+                }
+            }
+        }
+        .right{
+            img{
+                height: 420px;
+            }
+        }
+    }
+}
