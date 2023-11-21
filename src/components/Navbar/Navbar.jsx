@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import "./Navbar.scss"
 import { Link, useLocation } from "react-router-dom"
-
+import pp from "/src/assets/nilabjo-pp.jpeg"
 
 export default function Navbar() {
     const [active, setActive] = useState(false)
@@ -54,14 +54,14 @@ export default function Navbar() {
                     {!currentUser && <button className={active ? 'login-btn active' : 'login-btn'}>Join</button>}
                     {currentUser && (
                         <div className="user" onClick={() => setOpen(!open)}>
-                            <img src="/src/assets/nilabjo-pp.jpeg" alt="" />
+                            <img src={pp} alt="" />
                             <span>{currentUser?.username}</span>
                             <span>
                                {!open ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                                 </svg>
                                     :
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                                 </svg>}
                             </span>
