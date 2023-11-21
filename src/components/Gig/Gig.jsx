@@ -110,7 +110,7 @@ function Gig() {
               <span>3</span>
             </div>
             <p>
-              I have worked with this seller multiple times but she still doesn't understand what I want unless I repeat it 27 times specifically. I dont know if she's slow or does it on purpose.
+              I have worked with this seller multiple times but she still doesn't understand what I want unless I repeat it 27 times specifically. I dont know if she's slow or does it on purpose. Guys I am really frustrated :)
             </p>
             <div className="helpful">
               <span>Helpful?</span>
