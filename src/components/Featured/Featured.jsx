@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Featured.scss"
+import man from "/src/assets/man.png"
 
 function featured() {
   return (
@@ -28,7 +29,7 @@ function featured() {
 					</div>
 				</div>
 				<div className="right">
-					<img src="/src/assets/man.png" alt="" />
+					<img src={man} alt="" />
 				</div>
 			</div>
 		</div>
