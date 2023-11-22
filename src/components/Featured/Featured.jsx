@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Featured.scss"
 import man from "/src/assets/man.png"
+import { Link } from 'react-router-dom'
 
 function featured() {
   return (
@@ -22,10 +23,11 @@ function featured() {
 					</div>
 					<div className='popular'>
 						<span>Popular :</span>
-						<button>Photoshop</button>
-						<button>Video Editing</button>
-						<button>WordPress</button>
-						<button>AI Services</button>
+						<Link to="/gigs" className='btn-link link'>
+							<button>Photoshop</button><button>Video Editing</button>
+							<button>WordPress</button>
+							<button>AI Services</button>
+						</Link>
 					</div>
 				</div>
 				<div className="right">
