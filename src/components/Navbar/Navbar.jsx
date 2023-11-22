@@ -28,9 +28,9 @@ export default function Navbar() {
 
     return(
         <div className={active || pathname !== "/" ? 'navbar active' : 'navbar'}>
-            <div className="container">
+            <div className="container" >
                 <Link to={"/"} className="link">
-                    <div className="logo">
+                    <div className="logo" onClick={() => setOpen(false)}>
                         <span className="logo-text">fiverr</span>
                         <span className="logo-dot">.</span>
                     </div>
